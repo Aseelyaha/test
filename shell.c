@@ -1,4 +1,4 @@
-#include "shel.h"
+#include "shell.h"
 #include <stdbool.h>
 
 int main(void)
@@ -7,8 +7,8 @@ int main(void)
 
 	while (true)
 	{
-		display_prompt();
-		read_command(command, sizeof(command));
+		desplay_prompt();
+		read_comand(command, sizeof(command));
 		execute_command(command);
 	}
 	return (0);

@@ -1,4 +1,6 @@
 #include "shell.h"
+#include <sys/types.h>
+#include <sys/wait.h>
 
 void execute_command(const char *command)
 {

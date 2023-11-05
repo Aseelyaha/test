@@ -1,6 +1,6 @@
 #include "shell.h"
 
-void display_prompt(void)
+void desplay_prompt(void)
 {
 leo_print("leo_shell$");
 }
